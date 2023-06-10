@@ -1,0 +1,4 @@
+--patch-module
+com.semesterproject.tourplanner=_
+--add-reads
+com.semesterproject.tourplanner=ALL-UNNAMED

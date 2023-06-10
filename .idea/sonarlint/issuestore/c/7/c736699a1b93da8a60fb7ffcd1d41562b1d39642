@@ -1,0 +1,9 @@
+
+
+java:S1319:"iThe type of "tourItems" should be an interface such as "List" rather than the implementation "ArrayList".(‰É…ë
+‹
+java:S1319R"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼¨µœûÿÿÿÿ
+G
+java:S3010",Remove this assignment of "tourServiceImpl".(Ž—ÿ½ùÿÿÿÿ
+J
+java:S3010"/Remove this assignment of "tourLogServiceImpl".( ”Ý¹øÿÿÿÿ

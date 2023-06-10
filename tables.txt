@@ -1,0 +1,44 @@
+create table tour
+(
+    id             serial
+        constraint tour_pk
+            primary key,
+    name           varchar not null,
+    description    varchar,
+    start          varchar,
+    destination    varchar,
+    transport_type varchar,
+    distance       integer,
+    time           integer
+);
+
+alter table tour
+    owner to swe1user;
+
+create unique index tour_id_uindex
+    on tour (id);
+
+create unique index tour_name_uindex
+    on tour (name);
+
+create table tourlog
+(
+    id         serial
+        constraint tourlog_pk
+            primary key,
+    tour_id    integer not null
+        references tour,
+    date       date,
+    comment    varchar,
+    difficulty varchar,
+    total_time integer,
+    rating     integer,
+    distance   integer
+);
+
+alter table tourlog
+    owner to swe1user;
+
+create unique index tourlog_id_uindex
+    on tourlog (id);
+

@@ -1,0 +1,6 @@
+com\semesterproject\tourplanner\bl\TourServiceImplTest.class
+com\semesterproject\tourplanner\viewmodels\TourDetailsViewModelTest.class
+com\semesterproject\tourplanner\viewmodels\NewTourViewModelTest.class
+com\semesterproject\tourplanner\models\TourTest.class
+com\semesterproject\tourplanner\bl\MapQuestTest.class
+com\semesterproject\tourplanner\bl\TourLogServiceImplTest.class

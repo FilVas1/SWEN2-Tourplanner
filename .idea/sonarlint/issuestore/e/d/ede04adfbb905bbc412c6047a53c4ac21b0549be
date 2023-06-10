@@ -1,0 +1,9 @@
+
+_
+java:S2259+"DA "NullPointerException" could be thrown; "select" is nullable here.(ÏÚâ ˘ˇˇˇˇ
+Y
+java:S1659"CDeclare "select" and all following declarations on a separate line.(ŸŸÃì
+B
+java:S3010"'Remove this assignment of "connection".(ò±˛ò˚ˇˇˇˇ
+A
+java:S1168>"+Return an empty collection instead of null.(•πÔç

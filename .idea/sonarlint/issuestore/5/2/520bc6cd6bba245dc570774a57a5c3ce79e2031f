@@ -1,0 +1,19 @@
+
+¤
+java:S11301"ˆRemove the declaration of thrown exception 'com.semesterproject.tourplanner.bl.MapException', as it cannot be thrown from method's body.(©Å“åúÿÿÿÿ
+H
+java:S1172D"2Remove this unused method parameter "actionEvent".(“´„Ý
+V	java:S125J"<This block of commented-out lines of code should be removed.(šÒ÷øùÿÿÿÿ
+M
+java:S1172Q"2Remove this unused method parameter "actionEvent".(Ê›“‚úÿÿÿÿ
+H
+java:S1172\"2Remove this unused method parameter "actionEvent".(”§ÐÚ
+H
+java:S1172d"2Remove this unused method parameter "actionEvent".(˜¤²¬
+H
+java:S1172m"2Remove this unused method parameter "actionEvent".(Ÿ·‡€
+b
+java:S1128
+"GRemove this unused import 'com.semesterproject.tourplanner.dl.TourDAO'.(¾«¨‚øÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

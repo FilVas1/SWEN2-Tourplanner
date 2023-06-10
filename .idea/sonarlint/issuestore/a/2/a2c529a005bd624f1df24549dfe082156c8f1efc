@@ -1,0 +1,23 @@
+
+>
+java:S5411""(Use a primitive boolean expression here.(£ΰ›α
+>
+java:S54118"(Use a primitive boolean expression here.(£ΰ›α
+?
+java:S3010"$Remove this assignment of "tourDAO".(­Αΐ®ώÿÿÿÿ
+J
+java:S3010"/Remove this assignment of "tourLogServiceImpl".( ”έΉψÿÿÿÿ
+?
+java:S3010"$Remove this assignment of "tourDAO".(ΰιγόÿÿÿÿ
+J
+java:S3010"/Remove this assignment of "tourLogServiceImpl".( ”έΉψÿÿÿÿ
+P
+java:S2209"5Change this instance-reference to a static reference.(ΰιγόÿÿÿÿ
+V	java:S125D"<This block of commented-out lines of code should be removed.(»Ϊ‰ώÿÿÿÿ
+C
+java:S2447R"-Null is returned but a "Boolean" is expected.(¥Ήο
+U
+java:S1854]"?Remove this useless assignment to local variable "deletedTour".(Ίχε
+F
+java:S1481]"0Remove this unused "deletedTour" local variable.(Ίχε
+V	java:S125_"<This block of commented-out lines of code should be removed.(ªψÿÿÿÿ

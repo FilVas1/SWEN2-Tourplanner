@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.semesterproject.tourplanner.view.ToursOverviewController">
+    <ToolBar>
+        <Label text="%MediaOverview_Items"/>
+        <Pane HBox.hgrow="ALWAYS"/>
+        <Button text="+" onAction="#onButtonAdd"/>
+        <Button text="-" onAction="#onButtonRemove"/>
+        <MenuButton text="...">
+            <items>
+            <MenuItem text="create tour report" onAction="#onButtonCreateTourReport"/>
+            <MenuItem text="create summary" onAction="#onButtonCreateSummary"/>
+            <MenuItem text="export tour" onAction="#onButtonExport"/>
+            <MenuItem text="import tour" onAction="#onButtonImport"/>
+            <MenuItem text="download maneuvers" onAction="#onButtonDownloadManeuvers"/>
+            </items>
+        </MenuButton>
+    </ToolBar>
+    <ListView fx:id="tourListItem" VBox.vgrow="ALWAYS"/>
+</VBox>

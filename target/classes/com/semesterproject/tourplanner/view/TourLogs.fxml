@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import com.sun.javafx.scene.control.CustomColorDialog.ControlsPane?>
+<VBox xmlns="http://javafx.com/javafx"
+              xmlns:fx="http://javafx.com/fxml"
+              fx:controller="com.semesterproject.tourplanner.view.TourLogsController"
+              prefHeight="300.0" prefWidth="600.0">
+    <ToolBar>
+        <Label text="%Overview_Logs"/>
+        <Pane HBox.hgrow="ALWAYS"/>
+        <Button text="+" onAction="#onButtonAddLog"/>
+        <Button text="-" onAction="#onButtonRemoveLog"/>
+        <Button text="edit" onAction="#onButtonEditLog"/>
+    </ToolBar>
+    <TableView fx:id="tourLogListItems" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+            <TableColumn fx:id="date" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="totalTime" prefWidth="75.0" text="Total Time" />
+            <TableColumn fx:id="distance" prefWidth="75.0" text="Distance" />
+            <TableColumn fx:id="comment" prefWidth="75.0" text="Comment" />
+            <TableColumn fx:id="difficulty" prefWidth="75.0" text="Difficulty" />
+            <TableColumn fx:id="rating" prefWidth="75.0" text="Rating" />
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+        </columnResizePolicy>
+    </TableView>
+</VBox>
